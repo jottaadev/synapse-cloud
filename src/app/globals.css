@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -49,6 +51,6 @@ body {
 }
 
 .shimmer-card:hover::after {
-  left: 150%; /* Move para fora da tela à direita no hover */
+  left: 150%;
   opacity: 1;
 }
