@@ -2,12 +2,12 @@
   "name": "synapse-cloud",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "dev-webpack": "next dev",
-    "start": "next start",
-    "lint": "next lint"
+"scripts": {
+  "dev": "next dev --turbo",
+  "build": "next build",
+  "dev-webpack": "next dev",
+  "start": "next start",
+  "lint": "next lint"
   },
   "dependencies": {
     "@tsparticles/engine": "^3.8.1",
