@@ -1,3 +1,5 @@
+// src/components/Navbar.tsx
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -62,7 +64,7 @@ export function Navbar() {
           <a
             href="#planos"
             className="hidden md:block text-sm font-semibold text-white px-5 py-2.5 rounded-full transition-all duration-300
-                       bg-gradient-to-r from-cyan-500 to-blue-500 hover:shadow-lg hover:shadow-cyan-500/50"
+                       bg-gradient-to-r from-cyan-500 to-blue-500 hover:shadow-lg hover:shadow-cyan-500/50 transform hover:scale-105"
           >
             Ver Planos
           </a>

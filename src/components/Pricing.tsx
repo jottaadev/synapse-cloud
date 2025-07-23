@@ -88,13 +88,13 @@ export function Pricing() {
         <div className="mt-16 flex justify-center items-center gap-2 rounded-full bg-slate-900/50 p-1 border border-white/10 w-fit mx-auto">
           <button 
             onClick={() => setBillingCycle('bi-weekly')} 
-            className={`px-6 py-2 text-sm font-semibold rounded-full transition-colors duration-300 ${billingCycle === 'bi-weekly' ? 'bg-white/10 text-white' : 'text-gray-400 hover:text-white'}`}
+            className={`px-6 py-2 text-sm font-semibold rounded-full transition-colors duration-300 ${billingCycle === 'bi-weekly' ? 'bg-gradient-to-r from-cyan-500 to-blue-500 text-white' : 'text-gray-400 hover:text-white'}`}
           >
             Quinzenal
           </button>
           <button 
             onClick={() => setBillingCycle('monthly')} 
-            className={`px-6 py-2 text-sm font-semibold rounded-full transition-colors duration-300 ${billingCycle === 'monthly' ? 'bg-white/10 text-white' : 'text-gray-400 hover:text-white'}`}
+            className={`px-6 py-2 text-sm font-semibold rounded-full transition-colors duration-300 ${billingCycle === 'monthly' ? 'bg-gradient-to-r from-cyan-500 to-blue-500 text-white' : 'text-gray-400 hover:text-white'}`}
           >
             Mensal
           </button>
@@ -149,8 +149,8 @@ export function Pricing() {
                   href="#"
                   className={`
                     mt-10 block w-full text-center text-sm font-semibold leading-6 rounded-lg py-3 px-8 transition-all duration-300
-                    bg-white/5 text-white hover:bg-white/20
-                    group-hover:bg-gradient-to-r group-hover:from-cyan-500 group-hover:to-blue-500 group-hover:shadow-lg group-hover:shadow-cyan-500/50 group-hover:text-white
+                    bg-white/5 text-white 
+                    hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:shadow-lg hover:shadow-cyan-500/50 hover:text-white transform hover:-translate-y-1
                   `}
                 >
                   Contratar Agora

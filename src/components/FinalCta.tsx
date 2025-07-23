@@ -1,3 +1,5 @@
+// src/components/FinalCta.tsx
+
 "use client";
 
 import React, { useRef } from 'react';
@@ -64,7 +66,7 @@ export function FinalCta() {
           <a
             href="#planos"
             className="mt-8 inline-block bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold py-3 px-8 rounded-lg text-lg 
-                       transition-transform duration-300 transform hover:scale-105"
+                       transition-all duration-300 transform hover:scale-110 hover:shadow-xl hover:shadow-cyan-500/50"
             style={{
               animation: 'pulseGlow 3s infinite',
             }}

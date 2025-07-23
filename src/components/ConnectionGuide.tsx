@@ -1,3 +1,5 @@
+// src/components/ConnectionGuide.tsx
+
 "use client";
 
 import React from 'react';
@@ -74,7 +76,7 @@ export function ConnectionGuide() {
                 rel="noopener noreferrer"
                 className="mt-8 block w-full text-center text-sm font-semibold leading-6 rounded-lg
                            text-white py-3 px-8 transition-all duration-300
-                           bg-gradient-to-r from-cyan-500 to-blue-500 hover:shadow-lg hover:shadow-cyan-500/50"
+                           bg-gradient-to-r from-cyan-500 to-blue-500 hover:shadow-lg hover:shadow-cyan-500/50 transform hover:-translate-y-1"
               >
                 Download {tool.name}
               </a>

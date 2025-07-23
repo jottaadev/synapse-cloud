@@ -1,3 +1,5 @@
+// src/components/Hero.tsx
+
 "use client";
 
 import { motion, type Variants } from 'framer-motion';
@@ -63,7 +65,7 @@ export function Hero() {
             href="#planos"
             className="inline-block rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 px-8 py-3 text-lg font-bold text-white
                        transform transition-all duration-300 
-                       hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/50"
+                       hover:scale-110 hover:shadow-lg hover:shadow-cyan-500/50"
           >
             Ver planos
           </a>
